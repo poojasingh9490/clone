@@ -1,0 +1,83 @@
+.css-i4bv87-MuiSvgIcon-root{
+      padding: 2px;
+}
+
+.videoFooter{
+    position: relative;
+    margin-left: 20px;
+    bottom: 100px;
+}
+
+
+.videoFooter__text{
+    position: absolute;
+    bottom: 0;
+    color: black;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.videoFooter__text > h3{
+    margin-left:10px;
+    padding-bottom:20px;
+}
+.videoFooter__text > h3 > button{
+    color:black;
+    font-weight: 900;
+    text-transform: inherit;
+}
+
+.videoFooter__actions{
+    display: flex;
+    position :relative;
+    width: 95%;
+    color: black;
+    justify-content:right;
+ 
+    
+}
+
+
+.videoFooter__actionsRight {
+    display:block;
+    position: absolute;
+    justify-content:right;
+    
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+    
+      
+}
+
+.videoFooter__stat{
+    display: block;
+    align-items: center;
+    
+}
+
+
+.videoFooter__stat > p{
+    margin-left:3px;
+}
+
+.videoFooter__ticker > .ticker{
+    
+    height: fit-content;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.videoFooter__ticker h1 {
+    font-size: 12px;
+    padding-top:7px;
+    color: black;
+}
+.videoFooter__icon{
+    position: absolute;
+    left: 5px;
+    color: black;
+}
+
+
